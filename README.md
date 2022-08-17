@@ -1,0 +1,2 @@
+# myrepo
+Repozitory gb
