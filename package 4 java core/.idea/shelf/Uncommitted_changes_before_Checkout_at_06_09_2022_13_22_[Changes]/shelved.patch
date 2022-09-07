@@ -1,0 +1,69 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.HashMap;\r\nimport java.util.Map;\r\n\r\npublic class Main {\r\n    public  static void main (String[] args) {\r\n        /*1. Создать массив с набором слов (10-20 слов, должны встречаться повторяющиеся).\r\n        Найти и вывести список уникальных слов, из которых состоит массив (дубликаты не считаем).\r\n        Посчитать, сколько раз встречается каждое слово.*/\r\n\r\n        String[] names={\"Lyba\",\"Vera\",\"Vera\",\"Kata\",\"Lena\",\"Lena\",\"Olga\",\"Olga\",\"Tana\",\"Nasta\",\"Nasta\"};\r\n        HashMap<String, Integer> words= new HashMap<>();\r\n        for (String name:names) {\r\n            Integer count=words.get(name);\r\n            if(count==null) {\r\n                words.put(name,1);\r\n            } else {words.put(name,count+1);\r\n            }\r\n\r\n        }\r\n        for (Map.Entry<String, Integer> o : words.entrySet()) {\r\n            System.out.println(o.getKey() + \": \" + o.getValue());\r\n        }\r\n\r\n\r\n        /*2. Написать простой класс «Телефонный Справочник», который хранит в себе список фамилий и телефонных номеров.\r\n         В этот телефонный справочник с помощью метода add() можно добавлять записи, а с помощью метода get() искать номер телефона по фамилии.\r\n         Следует учесть, что под одной фамилией может быть несколько телефонов (в случае однофамильцев), тогда при запросе такой фамилии должны выводиться все телефоны.*/\r\n        TelephoneBook tb=new TelephoneBook();\r\n        tb.addRecord(\"Ivanov\",\"644964651\");\r\n        tb.addRecord(\"Ivanov\",\"541654165\");\r\n        tb.addRecord(\"Ivanova\",\"5564654561\");\r\n        tb.addRecord(\"Ivanova\",\"554564564564\");\r\n        tb.addRecord(\"Petrov\",\"55111111564\");\r\n        tb.addRecord(\"Petrova\",\"57777777711564\");\r\n        tb.addRecord(\"Petrov\",\"5511111333333\");\r\n\r\n\r\n\r\n\r\n        System.out.println( tb.searchBySurname(\"Ivanovvv\"));\r\n        System.out.println( tb.searchBySurname(\"Ivanov\"));\r\n\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	
++++ b/src/Main.java	
+@@ -1,11 +1,33 @@
+ import java.util.HashMap;
+ import java.util.Map;
++import java.util.Scanner;
+ 
+ public class Main {
+-    public  static void main (String[] args) {
++    public static void main(String[] args) {
++
++
++        Scanner scanner = new Scanner(System.in);
++        int maximum;
++        int a = scanner.nextInt();
++        int b = scanner.nextInt();
++        if (a > b ){
++            maximum = a;
++        }
++        else
++            maximum = b;
++
++        System.out.println(maximum);
++    }
++}
++
++
++
++
++
++
+         /*1. Создать массив с набором слов (10-20 слов, должны встречаться повторяющиеся).
+         Найти и вывести список уникальных слов, из которых состоит массив (дубликаты не считаем).
+-        Посчитать, сколько раз встречается каждое слово.*/
++        Посчитать, сколько раз встречается каждое слово.
+ 
+         String[] names={"Lyba","Vera","Vera","Kata","Lena","Lena","Olga","Olga","Tana","Nasta","Nasta"};
+         HashMap<String, Integer> words= new HashMap<>();
+@@ -25,7 +47,7 @@
+         /*2. Написать простой класс «Телефонный Справочник», который хранит в себе список фамилий и телефонных номеров.
+          В этот телефонный справочник с помощью метода add() можно добавлять записи, а с помощью метода get() искать номер телефона по фамилии.
+          Следует учесть, что под одной фамилией может быть несколько телефонов (в случае однофамильцев), тогда при запросе такой фамилии должны выводиться все телефоны.*/
+-        TelephoneBook tb=new TelephoneBook();
++      /*  TelephoneBook tb=new TelephoneBook();
+         tb.addRecord("Ivanov","644964651");
+         tb.addRecord("Ivanov","541654165");
+         tb.addRecord("Ivanova","5564654561");
+@@ -38,8 +60,12 @@
+ 
+ 
+         System.out.println( tb.searchBySurname("Ivanovvv"));
+-        System.out.println( tb.searchBySurname("Ivanov"));
++        System.out.println( tb.searchBySurname("Ivanov"));*/
++
++
++
++
+ 
+ 
+-    }
+-}
++
++
