@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05ee1717-154b-4fc8-a972-63ead06ee682" name="Changes" comment="rest assured Framework">
+      <change afterPath="$PROJECT_DIR$/../package 6 java core/src/main/java/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2EQeCSUWIdlRJdXpyK4iFfQISyI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.RecipeTests">
+    <configuration name="RecipeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecipeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeTests.addMealNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecipeTests" />
+      <option name="METHOD_NAME" value="addMealNegativeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeTests.addMealPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecipeTests" />
+      <option name="METHOD_NAME" value="addMealPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeTests.addMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecipeTests" />
+      <option name="METHOD_NAME" value="addMealTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeTests.getRecipeWithQueryParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecipeTests" />
+      <option name="METHOD_NAME" value="getRecipeWithQueryParametersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RecipeTests" />
+        <item itemvalue="JUnit.RecipeTests.addMealNegativeTest" />
+        <item itemvalue="JUnit.RecipeTests.addMealPositiveTest" />
+        <item itemvalue="JUnit.RecipeTests.getRecipeWithQueryParametersTest" />
+        <item itemvalue="JUnit.RecipeTests.addMealTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05ee1717-154b-4fc8-a972-63ead06ee682" name="Changes" comment="" />
+      <created>1662532108010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662532108010</updated>
+      <workItem from="1662532109789" duration="1723000" />
+      <workItem from="1662533866831" duration="1803000" />
+      <workItem from="1662545871198" duration="1828000" />
+      <workItem from="1662547752715" duration="1815000" />
+      <workItem from="1662549607913" duration="1504000" />
+      <workItem from="1662561007393" duration="4915000" />
+      <workItem from="1662621135320" duration="1651000" />
+      <workItem from="1662632437999" duration="1775000" />
+      <workItem from="1662634324263" duration="1767000" />
+      <workItem from="1662636138146" duration="381000" />
+      <workItem from="1662661251551" duration="1780000" />
+      <workItem from="1662663060854" duration="321000" />
+      <workItem from="1662664110290" duration="1098000" />
+      <workItem from="1662705180395" duration="1894000" />
+      <workItem from="1662707118996" duration="447000" />
+      <workItem from="1662717500398" duration="1971000" />
+      <workItem from="1662719503905" duration="636000" />
+      <workItem from="1662720581010" duration="912000" />
+      <workItem from="1662722118434" duration="673000" />
+      <workItem from="1662975586571" duration="43000" />
+      <workItem from="1662975672888" duration="619000" />
+    </task>
+    <task id="LOCAL-00001" summary="rest assured Framework">
+      <created>1662722192198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662722192198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rest assured Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest assured Framework" />
+  </component>
+</project>
