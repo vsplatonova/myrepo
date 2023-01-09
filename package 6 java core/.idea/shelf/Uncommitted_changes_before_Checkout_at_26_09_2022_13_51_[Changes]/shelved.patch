@@ -1,0 +1,12 @@
+Index: src/main/java/DatabaseRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public interface DatabaseRepository {\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/DatabaseRepository.java b/src/main/java/DatabaseRepository.java
+--- a/src/main/java/DatabaseRepository.java	
++++ b/src/main/java/DatabaseRepository.java	
+@@ -1,2 +1,3 @@
+ public interface DatabaseRepository {
++
+ }
