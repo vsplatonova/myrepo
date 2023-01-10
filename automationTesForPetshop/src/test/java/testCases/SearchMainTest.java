@@ -35,7 +35,7 @@ public class SearchMainTest extends ConstantSettings {
                 .clickToFind()
                 .scrollPage();
 
-        Assertions.assertEquals(32, searchPage.findResultPuppy().toArray().length);
+        Assertions.assertEquals(33, searchPage.findResultPuppy().toArray().length);
     }
 
     @Test
